@@ -13,3 +13,6 @@ C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\WPFUI.csproj.GenerateRe
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\WPFUI.csproj.CoreCompileInputs.cache
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\WPFUI.exe
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\WPFUI.pdb
+C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\bin\Debug\ClassLibrary1.dll
+C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\bin\Debug\ClassLibrary1.pdb
+C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
