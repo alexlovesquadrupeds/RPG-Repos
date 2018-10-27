@@ -4,3 +4,4 @@ C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\ClassLibrary1\bin\Debug\ClassLibrary1.d
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\ClassLibrary1\obj\Debug\ClassLibrary1.g.resources
