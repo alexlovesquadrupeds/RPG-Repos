@@ -21,6 +21,19 @@ namespace ClassLibrary1.PlayerModels
 
             _locations.Add(loc);
 
+
+        }
+        public Location LocationAt(int xCoordinate, int yCoordinate)
+        {
+            foreach (Location loc in _locations)
+            {
+                if (loc.XCoordinate == xCoordinate && loc.YCoordinate == yCoordinate)
+                {
+                    return loc;
+                }
+            }
+
+            return null;
         }
     }
 }

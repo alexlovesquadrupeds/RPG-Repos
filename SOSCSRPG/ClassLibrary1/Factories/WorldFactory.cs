@@ -12,8 +12,6 @@ namespace ClassLibrary1.Factories
         internal World CreateWorld()
         {
             World newWorld = new World();
-            
-            return new World();
 
             newWorld.AddLocation(-2, -1, "The Great Deku Tree",
                 "The Great Deku Tree is sad. You sense that something is wrong...",
@@ -51,6 +49,7 @@ namespace ClassLibrary1.Factories
                 "The home of the Princess Zelda and the Royal Family of Hyrule",
                 "/ClassLibrary1;component/Images/Locations/hyruleCastle.jpg");
 
+            return newWorld;
 
         }
     }
