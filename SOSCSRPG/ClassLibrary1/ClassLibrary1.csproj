@@ -43,8 +43,11 @@
   <ItemGroup>
     <Compile Include="BaseNotificationClass.cs" />
     <Compile Include="Factories\WorldFactory.cs" />
+    <Compile Include="PlayerModels\GameItem.cs" />
+    <Compile Include="PlayerModels\ItemFactory.cs" />
     <Compile Include="PlayerModels\Location.cs" />
     <Compile Include="PlayerModels\Player.cs" />
+    <Compile Include="PlayerModels\Weapon.cs" />
     <Compile Include="PlayerModels\World.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\GameSession.cs" />

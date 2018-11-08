@@ -7,11 +7,12 @@ using ClassLibrary1.PlayerModels;
 
 namespace ClassLibrary1.Factories
 {
-    internal class WorldFactory
+    internal static class WorldFactory
     {
-        internal World CreateWorld()
+        internal static World CreateWorld()
         {
-            World newWorld = new World();
+            World newWorld = new World(
+                );
 
             newWorld.AddLocation(-2, -1, "The Great Deku Tree",
                 "The Great Deku Tree is sad. You sense that something is wrong...",
