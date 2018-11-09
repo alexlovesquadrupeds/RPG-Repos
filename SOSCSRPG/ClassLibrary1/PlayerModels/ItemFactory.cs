@@ -19,6 +19,10 @@ namespace ClassLibrary1.Factories
             _standardGameItems.Add(new Weapon(1002, "Master Sword", 5, 1, 3));
             _standardGameItems.Add(new GameItem(9001, "Deku Stick", 1));
             _standardGameItems.Add(new GameItem(9002, "Deku Nuts", 2));
+            _standardGameItems.Add(new GameItem(9003, "Parasitic Tentacle", 1));
+            _standardGameItems.Add(new GameItem(9004, "Bari", 2));
+            _standardGameItems.Add(new GameItem(9005, "Triforce of Power", 1));
+            _standardGameItems.Add(new GameItem(9006, "Triforce of Wisdom and the Triforce of Courage", 2));
 
         }
 
