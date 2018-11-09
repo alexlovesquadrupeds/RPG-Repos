@@ -15,8 +15,11 @@ namespace ClassLibrary1.Factories
         {
             _standardGameItems = new List<GameItem>();
 
-            _standardGameItems.Add(new Weapon(1001, "Deku Stick", 1, 1, 2));
-            _standardGameItems.Add(new Weapon(1002, "Deku Nuts", 5, 1, 3));
+            _standardGameItems.Add(new Weapon(1001, "Kokiri Sword", 1, 1, 2));
+            _standardGameItems.Add(new Weapon(1002, "Master Sword", 5, 1, 3));
+            _standardGameItems.Add(new GameItem(9001, "Deku Stick", 1));
+            _standardGameItems.Add(new GameItem(9002, "Deku Nuts", 2));
+
         }
 
         public static GameItem CreateGameItem(int itemTypeID)

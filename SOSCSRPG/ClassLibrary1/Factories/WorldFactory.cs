@@ -11,8 +11,7 @@ namespace ClassLibrary1.Factories
     {
         internal static World CreateWorld()
         {
-            World newWorld = new World(
-                );
+            World newWorld = new World();
 
             newWorld.AddLocation(-2, -1, "The Great Deku Tree",
                 "The Great Deku Tree is sad. You sense that something is wrong...",
@@ -21,6 +20,9 @@ namespace ClassLibrary1.Factories
             newWorld.AddLocation(-1, 0, "The Lost Woods",
                 "Welcome. Try not to get lost",
                 "/ClassLibrary1;component/Images/Locations/lostWoods.jpg");
+
+            newWorld.LocationAt(-1, 0).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(1));
+
 
             newWorld.AddLocation(0, 0, "Home",
                 "This is your house. Get up!",

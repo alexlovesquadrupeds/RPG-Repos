@@ -45,8 +45,12 @@
     <Compile Include="Factories\WorldFactory.cs" />
     <Compile Include="PlayerModels\GameItem.cs" />
     <Compile Include="PlayerModels\ItemFactory.cs" />
+    <Compile Include="PlayerModels\ItemQuantity.cs" />
     <Compile Include="PlayerModels\Location.cs" />
     <Compile Include="PlayerModels\Player.cs" />
+    <Compile Include="PlayerModels\Quest.cs" />
+    <Compile Include="PlayerModels\QuestFactory.cs" />
+    <Compile Include="PlayerModels\QuestStatus.cs" />
     <Compile Include="PlayerModels\Weapon.cs" />
     <Compile Include="PlayerModels\World.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

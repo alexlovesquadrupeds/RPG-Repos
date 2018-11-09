@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
+using System.Collections.ObjectModel;
 
 namespace ClassLibrary1.PlayerModels
 {
@@ -77,5 +78,13 @@ namespace ClassLibrary1.PlayerModels
             }
         }
 
+        public ObservableCollection<GameItem> Inventory { get; set; }
+        public ObservableCollection<QuestStatus> Quests { get; set; }
+
+        public Player()
+        {
+            Inventory = new ObservableCollection<GameItem>();
+            Quests = new ObservableCollection<QuestStatus>();
+        }
     }
 }
