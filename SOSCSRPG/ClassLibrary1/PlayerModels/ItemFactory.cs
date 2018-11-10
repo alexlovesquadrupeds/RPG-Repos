@@ -9,12 +9,10 @@ namespace ClassLibrary1.Factories
 {
     public static class ItemFactory
     {
-        private static List<GameItem> _standardGameItems;
+        private static readonly List<GameItem> _standardGameItems = new List<GameItem>();
 
         static ItemFactory()
         {
-            _standardGameItems = new List<GameItem>();
-
             _standardGameItems.Add(new Weapon(1001, "Kokiri Sword", 1, 1, 2));
             _standardGameItems.Add(new Weapon(1002, "Master Sword", 5, 1, 3));
             _standardGameItems.Add(new GameItem(9001, "Deku Stick", 1));
@@ -23,7 +21,6 @@ namespace ClassLibrary1.Factories
             _standardGameItems.Add(new GameItem(9004, "Bari", 2));
             _standardGameItems.Add(new GameItem(9005, "Triforce of Power", 1));
             _standardGameItems.Add(new GameItem(9006, "Triforce of Wisdom and the Triforce of Courage", 2));
-
         }
 
         public static GameItem CreateGameItem(int itemTypeID)
@@ -32,7 +29,12 @@ namespace ClassLibrary1.Factories
 
             if(standardItem != null)
                 {
-                    return standardItem.Clone();
+                    if (standardItem is Weapon)
+                    {
+                        return (standardItem as Weapon).Clone();
+                    }
+
+                return standardItem.Clone();
                 }
 
             return null;

@@ -15,7 +15,7 @@ namespace ClassLibrary1.Factories
             {
                 case 1:
                     Monster Deku_Baba =
-                        new Monster("Deku Baba", "dekubaba.png", 4, 4, 5, 1);
+                        new Monster("Deku Baba", "dekubaba.png", 4, 4, 1, 2, 5, 1);
 
                     AddLootItem(Deku_Baba, 9001, 25);
                     AddLootItem(Deku_Baba, 9002, 75);
@@ -24,7 +24,7 @@ namespace ClassLibrary1.Factories
 
                 case 2:
                     Monster Jabu_Jabu =
-                        new Monster("Jabu Jabu", "jabujabu.jpg", 5, 5, 5, 1);
+                        new Monster("Jabu Jabu", "jabujabu.jpg", 5, 5, 1, 2, 5, 1);
 
                     AddLootItem(Jabu_Jabu, 9003, 25);
                     AddLootItem(Jabu_Jabu, 9004, 75);
@@ -33,7 +33,7 @@ namespace ClassLibrary1.Factories
 
                 case 3:
                     Monster Ganondorf =
-                        new Monster("Ganondorf", "ganondorf.png", 10, 10, 10, 3);
+                        new Monster("Ganondorf", "ganondorf.png", 10, 10, 1, 4, 10, 3);
 
                     AddLootItem(Ganondorf, 9005, 33);
                     AddLootItem(Ganondorf, 9006, 67);

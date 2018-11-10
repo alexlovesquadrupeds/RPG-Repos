@@ -15,45 +15,45 @@ namespace ClassLibrary1.Factories
 
             newWorld.AddLocation(-2, 0, "The Great Deku Tree",
                 "The Great Deku Tree is sad. You sense that something is wrong...",
-                "/ClassLibrary1;component/Images/Locations/deku.png");
+                "deku.png");
 
             newWorld.LocationAt(-2, 0).AddMonster(1, 100);
 
             newWorld.AddLocation(-1, 0, "The Lost Woods",
                 "Welcome. Try not to get lost",
-                "/ClassLibrary1;component/Images/Locations/lostWoods.jpg");
+                "lostWoods.jpg");
 
             newWorld.LocationAt(-1, 0).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(1));
 
             newWorld.AddLocation(0, 0, "Home",
                 "This is your house. Get up!",
-                "/ClassLibrary1;component/Images/Locations/home.png");
+                "home.png");
 
             newWorld.AddLocation(-1, 1, "Kokiri Forest",
                 "You head to the Kokiri Store. Purveyors of fine goods.",
-                "/ClassLibrary1;component/Images/Locations/kokiri.png");
+                "kokiri.png");
 
             newWorld.AddLocation(0, 1, "Hyrule Field",
                 "You see the open plains of Hyrule Field",
-                "/ClassLibrary1;component/Images/Locations/lostWoods.jpg");
+                "lostWoods.jpg");
 
             newWorld.AddLocation(1, 1, "Zora's River",
                 "This beautiful stream leads to Zora's domain",
-                "/ClassLibrary1;component/Images/Locations/zorasRiver.png");
+                "zorasRiver.png");
 
             newWorld.AddLocation(2, 1, "Zora's Domain",
                 "Home to the Zora family and Lord Jabu-Jabu",
-                "/ClassLibrary1;component/Images/Locations/zoraDomain.png");
+                "zoraDomain.png");
 
             newWorld.LocationAt(2, 1).AddMonster(2, 100);
 
             newWorld.AddLocation(0, 2, "Castle Town",
                 "The main hub and center of activity in the Kingdom, where Hyruleans come to engage in business and trade goods.",
-                "/ClassLibrary1;component/Images/Locations/castleTown.jpg");
+                "castleTown.jpg");
 
             newWorld.AddLocation(0, 3, "Hyrule Castle",
                 "The home of the Princess Zelda and the Royal Family of Hyrule",
-                "/ClassLibrary1;component/Images/Locations/hyruleCastle.jpg");
+                "hyruleCastle.jpg");
 
             newWorld.LocationAt(0, 3).AddMonster(3, 100);
 

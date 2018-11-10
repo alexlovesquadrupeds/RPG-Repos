@@ -17,7 +17,7 @@ namespace ClassLibrary1.PlayerModels
             loc.YCoordinate = yCoordinate;
             loc.Name = name;
             loc.Description = description;
-            loc.ImageName = imageName;
+            loc.ImageName = $"/ClassLibrary1;component/Images/Locations/{imageName}";
 
             _locations.Add(loc);
 
