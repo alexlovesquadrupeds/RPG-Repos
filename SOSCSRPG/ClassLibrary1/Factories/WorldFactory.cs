@@ -29,7 +29,7 @@ namespace ClassLibrary1.Factories
                 "This is your house. Get up!",
                 "/ClassLibrary1;component/Images/Locations/home.png");
 
-            newWorld.AddLocation(-1, -1, "Kokiri Forest",
+            newWorld.AddLocation(-1, 1, "Kokiri Forest",
                 "You head to the Kokiri Store. Purveyors of fine goods.",
                 "/ClassLibrary1;component/Images/Locations/kokiri.png");
 
