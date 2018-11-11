@@ -96,7 +96,7 @@ namespace ClassLibrary1.ViewModels
                             {
                                 Name = "Alex ",
                                 CharacterClass = "Hylian",
-                                HitPoints = 25,
+                                HitPoints = 35,
                                 Gold = 999,
                                 ExperiencePoints = 0,
                                 Level = 1
