@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ClassLibrary1.Factories;
 
 namespace ClassLibrary1.PlayerModels
@@ -18,6 +15,8 @@ namespace ClassLibrary1.PlayerModels
 
         public List<MonsterEncounter> MonstersHere { get; set; } =
             new List<MonsterEncounter>();
+
+        public Trader TraderHere { get; set; }
 
         public void AddMonster(int monsterID, int chanceOfEncountering)
         {

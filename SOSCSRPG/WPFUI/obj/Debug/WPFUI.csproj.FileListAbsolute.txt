@@ -15,3 +15,5 @@ C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\WPFUI.pdb
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\bin\Debug\ClassLibrary1.dll
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\bin\Debug\ClassLibrary1.pdb
 C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
+C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\TradeScreen.baml
+C:\Users\Lara\Desktop\RPG Repos\SOSCSRPG\WPFUI\obj\Debug\TradeScreen.g.cs

@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel;
 using System.Collections.ObjectModel;
 
 namespace ClassLibrary1.PlayerModels
 {
     public class Player : BaseNotificationClass
-
     {
+        #region Properties
+
         private string _name;
         private string _characterClass;
         private int _hitPoints;
@@ -85,6 +82,8 @@ namespace ClassLibrary1.PlayerModels
 
         public ObservableCollection<QuestStatus> Quests { get; set; }
 
+        #endregion
+
         public Player()
         {
             Inventory = new ObservableCollection<GameItem>();
@@ -98,5 +97,24 @@ namespace ClassLibrary1.PlayerModels
             OnPropertyChanged(nameof(Weapons));
         }
 
+        public void RemoveItemFromInventory(GameItem item)
+        {
+            Inventory.Remove(item);
+
+            OnPropertyChanged(nameof(Weapons));
+        }
+
+        public bool HasAllTheseItems(List<ItemQuantity> items)
+        {
+            foreach (ItemQuantity item in items)
+            {
+                if (Inventory.Count(i => i.ItemTypeID == item.ItemID) < item.Quantity)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
     }
 }

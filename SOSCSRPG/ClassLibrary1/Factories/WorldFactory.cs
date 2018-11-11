@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ClassLibrary1.PlayerModels;
+﻿using ClassLibrary1.PlayerModels;
 
 namespace ClassLibrary1.Factories
 {
@@ -32,6 +27,8 @@ namespace ClassLibrary1.Factories
             newWorld.AddLocation(-1, 1, "Kokiri Forest",
                 "You head to the Kokiri Store. Purveyors of fine goods.",
                 "kokiri.png");
+            newWorld.LocationAt(-1, 1).TraderHere =
+                TraderFactory.GetTraderByName("Skull Kid");
 
             newWorld.AddLocation(0, 1, "Hyrule Field",
                 "You see the open plains of Hyrule Field",
@@ -40,6 +37,8 @@ namespace ClassLibrary1.Factories
             newWorld.AddLocation(1, 1, "Zora's River",
                 "This beautiful stream leads to Zora's domain",
                 "zorasRiver.png");
+            newWorld.LocationAt(1, 1).TraderHere =
+                TraderFactory.GetTraderByName("Peter Peter the Pumpkin Eater");
 
             newWorld.AddLocation(2, 1, "Zora's Domain",
                 "Home to the Zora family and Lord Jabu-Jabu",
@@ -50,6 +49,8 @@ namespace ClassLibrary1.Factories
             newWorld.AddLocation(0, 2, "Castle Town",
                 "The main hub and center of activity in the Kingdom, where Hyruleans come to engage in business and trade goods.",
                 "castleTown.jpg");
+
+            //newWorld.LocationAt(0, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(2));
 
             newWorld.AddLocation(0, 3, "Hyrule Castle",
                 "The home of the Princess Zelda and the Royal Family of Hyrule",
