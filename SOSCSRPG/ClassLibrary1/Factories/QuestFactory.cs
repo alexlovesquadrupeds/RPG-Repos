@@ -26,20 +26,14 @@ namespace ClassLibrary1.PlayerModels
                                   itemsToComplete,
                                   25, 10,
                                   rewardItems));
-            /*
-            // Declare the items need to complete the SECOND quest, and its reward items
-            List<ItemQuantity> itemsToComplete2 = new List<ItemQuantity>();
-            List<ItemQuantity> rewardItems2 = new List<ItemQuantity>();
 
-            itemsToComplete.Add(new ItemQuantity(9002, 3));
-            rewardItems.Add(new ItemQuantity(1002, 1));
+            // second quest - defeat jabu and bring me his insides
             _quests.Add(new Quest(2,
-                      "Defeat Jabu Jabu",
-                      "Defeat the Deku Baba in the Lost Woods",
-                      itemsToComplete,
-                      25, 10,
-                      rewardItems));
-                */
+                                "Bring me Jabu-Jabu's insides",
+                                "Bring me some yummy tentacles",
+                                new List { new ItemQuantity(9003, 2) },
+                                25, 10,
+                                new List { new ItemQuantity(1001, 1) }));
         }
 
         internal static Quest GetQuestByID(int id)
@@ -47,5 +41,9 @@ namespace ClassLibrary1.PlayerModels
             return _quests.FirstOrDefault(quest => quest.ID == id);
         }
 
+    }
+
+    internal class List : List<ItemQuantity>
+    {
     }
 }

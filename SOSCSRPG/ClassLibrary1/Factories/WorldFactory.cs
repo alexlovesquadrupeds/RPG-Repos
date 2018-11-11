@@ -50,7 +50,7 @@ namespace ClassLibrary1.Factories
                 "The main hub and center of activity in the Kingdom, where Hyruleans come to engage in business and trade goods.",
                 "castleTown.jpg");
 
-            //newWorld.LocationAt(0, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(2));
+            newWorld.LocationAt(0, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(2));
 
             newWorld.AddLocation(0, 3, "Hyrule Castle",
                 "The home of the Princess Zelda and the Royal Family of Hyrule",
